@@ -1,0 +1,114 @@
+package main;
+
+public class oopDemo {
+	
+    //1.Student Informations
+   	int Id=1001;
+		String Name="Ashitha";
+		int Marks=80;
+		void show() {
+			System.out.println("ID: "+Id);
+			System.out.println("Name: "+Name);
+			System.out.println("Marks: "+Marks);
+		}
+	    public static void main(String[] args) {
+	    	oopDemo od=new oopDemo();
+		od.show();
+		}
+
+
+    //2.Class & Object
+  public class oopDemo{
+	int a=2;
+	int b=3;
+	int sum=a+b;
+	void sum() {
+		System.out.println("The Sum of Number is:"+sum);
+	}
+	public static void main(String[]args) {
+		oopDemo od=new oopDemo();
+		od.sum();
+	}
+ }
+  //3.Area of Rectangle
+  public class oopDemo{
+	float L= 4.5f;
+	float B=6;
+	float Area=(L*B);
+	void area(){
+		System.out.println("The Area of Rectangle is: "+Area);
+	}
+	public static void main(String[]args) {
+		oopDemo cd=new oopDemo();
+		cd.area();
+	}
+	}
+
+
+   //4.Circle Area And Circumference
+    public class oopDemo{
+    float r=2.7f;
+    float Area=(float)(3.14*r*2);
+    float Cirumference=(float)(2*3.14*r);
+    void area() {
+    System.out.println("The Area of Cirle is: "+Area);
+    System.out.println("The Area of Cirumference is: "+Cirumference);
+    }
+    public static void main() {
+    	oopDemo cd=new oopDemo();
+    	cd.area();
+    	}
+    	}
+
+    //5.HR system management
+    public class oopDemo{
+    int ID=101;
+    String Name="Yuvan";
+    int Salary=100000;
+    void employee() {
+    	 System.out.println("The ID of employee: "+ID);
+    	 System.out.println("The Name of employee: "+Name);
+    	 System.out.println("The Salary of employee: "+Salary);
+    }
+    public static void main(String[]args) {
+    	oopDemo ed=new oopDemo();
+    	ed.employee();
+    }
+    	
+    }
+
+   //6.Car showRoom information
+
+    String brand;
+    String model;
+    double price;
+    void display() {
+   System.out.println("Brand: "+brand);
+   System.out.println("Model: "+model);
+   System.out.println("Price: "+price);
+    }    
+   public static void main(String[]args) {
+    	
+   oopDemo car1=new oopDemo();
+    car1.brand="Toyota";
+    car1.model="Innova";
+    car1.price=2500000;
+    car1.display();}
+	
+	
+	
+	
+    
+    
+    
+    
+ 
+	  
+	   
+    
+  
+	  
+
+   }
+ 
+
