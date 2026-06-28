@@ -1,0 +1,362 @@
+package main;
+import java.util.Scanner;
+public class Task2 {
+
+	public static void main(String[] args) {
+		//1.Multiplication upto 10 Table
+	/*	Scanner sc= new Scanner(System.in);
+		System.out.println("Enter An Number:");
+		int A=sc.nextInt();
+		for (int i=1 ; i<=10; i++) {
+			System.out.println(A+"X"+ i +"="+ (A*i) );
+            }*/
+		
+		
+		//2.To print Odd Number from 1to 10
+		
+		/*int sum=0;
+		for (int i=1; i<=20; i++) {
+			if (i % 2!= 0) {
+				sum +=i;
+				System.out.println(i);
+			}
+		}
+		System.out.println("Sum of Odd numbers: "+sum);*/
+		
+		//3.odd and Even
+		/*Scanner sc=new Scanner(System.in);
+		System.out.println("Enter An number:");
+		int num=sc.nextInt();
+		if(num%2==0) {
+			System.out.println(1);
+		}else {
+			System.out.println(0);
+		}
+		*/
+		
+		//4.Divisible by 7,9 And Both
+		
+		/*for (int i=1; i<=100; i++) {
+			if(i%7==0 && i%9==0) {
+				System.out.println(i + "The number is divisible by BOTH(7 And 9)");
+				}else if(i%7==0){
+					System.out.println(i + "The number is divisible by 7");
+				}else if(i%9==0) {
+					System.out.println(i + "The number is divisible by 9");
+				}
+		}*/
+		
+		//5.Calculate two integer and equal to third number
+		
+		/*Scanner sc= new Scanner(System.in);
+		System.out.println("Enter an First Number:");
+		int A=sc.nextInt();
+		System.out.println("Enter an Second Number:");
+		int B=sc.nextInt();
+		System.out.println("Enter an Third Number:");
+		int C=sc.nextInt();
+		boolean result=(A+B==C);
+		System.out.println("Result : "+result);*/
+		
+		
+		//7.Accepts an Integer
+		/*Scanner sc=new Scanner(System.in);
+		System.out.println("Enter An Integer:");
+		int Num=sc.nextInt();
+		int n=sc.nextInt();//5
+		int nn=n*10+n;//50+n
+		int nnn=nn*10 +n;
+		
+		System.out.println(n+(nn)+(nnn));*/ 
+		
+		//8.Print natural number in ascending and descending order
+		
+		/* 
+		 
+		  Scanner sc=new Scanner(System.in);
+		System.out.println("Enter an number:");
+		int n=sc.nextInt();
+		System.out.println("Ascending order:");
+		for (int i=1; i<=n; i++) {
+			System.out.println(i+"");
+		}
+		System.out.println("Descending order:");
+		for (int i=n;i>=1;i--) {
+			System.out.println(i+"");
+		}*/
+		
+		//9.Number from 1to 10 and print in words using methods
+	/* Scanner sc=new Scanner(System.in);
+	 System.out.print("Enter An number: ");
+	 int n=sc.nextInt();
+	 switch(n)
+	 {
+	 case 1:
+		 System.out.print("ONE");
+		 break;
+	 case 2:
+		 System.out.print("TWO");
+		 break;
+	 case 3:
+		 System.out.print("one");
+		 break;
+	 case 4:
+		 System.out.print("FOUR");
+		 break;
+	 case 5:
+		 System.out.print("FIVE");
+		 break;
+	 case 6:
+		 System.out.print("SIX");
+		 break;
+	 case 7:
+		 System.out.print("SEVEN");
+		 break;
+	 case 8:
+		 System.out.print("EIGHT");
+		 break;
+	 case 9:
+		 System.out.print("NINE");
+		 break;
+	 case 10:
+		 System.out.print("TEN");
+		 break;
+		 
+	 }*/
+		//10.FIND FACTORS AND FACTORIAL OF A NUMBER
+		/*Scanner sc=new Scanner (System.in);
+		System.out.print("Enter An number: ");
+		int N=sc.nextInt(); //5
+		int fact=1;
+		for( int i=1; i<=N; i++) {
+		fact=fact*i;
+		}
+	    int Factors=N;
+		for (int i=N; i>=1; i--) //5 5>=1
+		{
+		System.out.print(i+"*"); //5 4 3 2 1
+		}
+		System.out.println("The Factorial of number is : "+fact);
+		System.out.println("The Factor of number is : "+Factors);*/
+		
+		// number seperation 7432 
+	/*	Scanner sc= new Scanner(System.in);
+		System.out.println("Enter An Four Digit Number:");
+		int A=sc.nextInt();
+		System.out.println(A/1000);
+		System.out.println((A/100)%10);
+		System.out.println((A/10)%10);
+		System.out.println(A%10);*/
+		
+		
+		//11.CHECK THE NUMBER IS ARMSTRONG OR NOT
+		
+	/*	Scanner sc=new Scanner(System.in);
+		System.out.print("Enter an number: ");
+		int Num=sc.nextInt();
+		for(){
+			
+		}*/
+		
+		
+		//12.RIGHT AND LEFT SIDE HALF TRIANGLE PATTERN
+		
+		
+ /*       int n=6;
+		  int i,j;
+		  for (i=n; i>=1;i--) 
+		  {
+		  for (j=1; j<=i;j++)
+		  {
+		  System.out.print("*");
+		  }
+		  System.out.println();
+		  }*/
+		
+		//LEFT SIDE
+		 
+		 /*  int n=6;
+		   int i,j,k;
+		   for(i=n; i>0; i--) 
+		   {
+		   for(j=0;j<n-i; j++) 
+		   {
+		   System.out.print(" ");
+		   }
+		   for(k=0;k<i;k++) 
+		   {
+		   System.out.print("*");
+		   }
+		   System.out.println();
+		   }*/
+		
+		//13.TRIANGLE PATTERN
+		
+//		for(int i=1;i<=5;i++){
+//		for(int j=1;j<=i;j++){
+//		System.out.print("*");
+//		}
+//		System.out.println();
+//		}
+		
+//		
+//		for(int i=1;i<=5;i++){ //Row
+//		for(int j=1;j<=6;j++){//Column
+//		System.out.print("*");
+//		}
+//		System.out.println();
+//		}
+		
+		
+//		for(int i=5;i>=1;i--){
+//		for(int j=1;j<=i;j++){
+//		System.out.print("*");
+//		}
+//		System.out.println();
+//		}
+		
+		
+//		for (int i=1;i<=7;i++){
+//		for (int j=1;j<=i;j++){
+//		System.out.print(j);
+//		}
+//		System.out.println();
+//		}
+		
+	
+//		for(int i=1;i<=5;i++){
+//		for(int j=1;j<=i;j++){
+//		System.out.print(j+" ");	
+//		}
+//		System.out.println();
+//		}
+		
+		/*int n=5;
+		for(int i=0;i<=n;i++){
+		int num=1;
+		for(int j=0;j<n-i;j++){
+		System.out.print(" ");	
+		}
+		for(int j=0;j<=i;j++){
+		System.out.print(num+" ");
+		num= num *(i-j)/(j+1);
+		}
+		System.out.println();
+		}*/
+		
+		
+	//14.STAR PATTERN FOR DIAMOND SHAPES
+	/*	int n=5;
+		for(int i=1;i<=5;i++){
+		for(int j=1;j<=i;j++){
+		System.out.print("*");
+		}
+		System.out.println();
+		}*/
+		//square
+		/*for(int n=1;n<=5;n++) {
+			for(int m=1;m<=7;m++) 
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}*/
+		
+		//inverse right triangle
+	/*	int n=5;
+		for(int i=1;i<=n;i++) {
+			for(int j=1;j<=n-i+1;j++) {
+				System.out.print("*");
+			}System.out.println("");
+		}*/
+		
+		//Integers Right angle Triangle
+	/*	int n=5;
+		for(int i=1;i<=5;i++) {
+			for(int j=1;j<=i;j++) {
+				System.out.print(j+" ");
+				}
+			System.out.println(" ");
+		
+		}
+	}*/
+		//Diamond Shape pattern //
+		
+	/*	int n=5;
+		for(int i=1;i<=n;i++) {
+		
+			for(int space=0;space<n-i;space++) {
+				System.out.print("  ");
+			}
+			for(int j=i;j>=1;j--) {
+				System.out.print(j+" ");
+			}
+			for(int j=2;j<=i;j++) //it prints right side& starts from
+				{
+				System.out.print(j+" ");
+			}
+			System.out.println();
+		}*/
+		
+	/*	int n=4;
+		for(int i=1;i<=2*n;i++) {
+			int c=i>n?2*n-i:i;
+			for(int space=0;space<n-c;space++) {
+				System.out.print("  ");
+			}
+			for(int j=c;j>=1;j--) {
+				System.out.print(j+" ");
+	}
+			for(int j=2;j<=c;j++) {
+				System.out.print(j+" ");
+				}
+			System.out.println();
+		}*/
+		
+		/*int n=4;
+		n=2*n;
+		
+		for(int i=0;i<=n;i++) {
+			for(int j=0;j<=n;j++) {
+				int atEveryIndex=Math.min(Math.min(i, j),Math.min(n-i,n- j));
+				System.out.print(atEveryIndex+" ");
+			}
+			System.out.println();
+		}*/
+		//Ternary operator
+	/*	Scanner sc=new Scanner(System.in);
+		System.out.println("Enter An Age:");
+		int A=sc.nextInt();
+	    String s=(A>=18)?"Eligible":"Not Elgible";
+			System.out.println(s);*/
+			
+			
+	/*	int n=5;
+		for(int i=1;i<=5;i++) {
+			for(int space=0;space<2*i-1;space++) {
+				System.out.print("");
+			}
+			for(int j=0;j<2*i-1;j++) {
+				System.out.print(i+"");
+			}
+			System.out.println();
+		}*/
+		
+		
+		
+		
+		
+
+	
+		
+		
+	}
+}
+
+
+
+		
+		
+
+
