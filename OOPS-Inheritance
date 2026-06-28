@@ -1,0 +1,262 @@
+package main;
+//1. Zoo Management
+class Animal{
+		void eat() {
+			System.out.println("Animal is Eating");
+		}
+	}
+	class Dog extends Animal{
+		void bark() {
+			System.out.println("Dog is Barking");
+		}
+		}
+	public class Inheritance {
+	public static void main(String[] args) {
+    Dog d= new Dog();
+    d.bark();
+    d.eat();
+	}
+	}
+
+//2.Vehicle System
+
+class Vehicle{
+	void bike() {
+			System.out.println("Bike perform Starting Feature");
+			System.out.println("Bike perform Stop Feature");
+	}
+}
+class Car extends Vehicle{
+	void drive() {
+		System.out.println("Car perform Driving Feature");
+	}
+	
+}
+public class Inheritance {
+	public static void main(String[] args) {
+    Car car= new Car();
+    car.bike();
+    car.drive();
+	}
+	}
+
+//3.College Database
+class StudentInfo{
+	String Name="Aravind";
+	int Age=22;
+}
+class Details extends StudentInfo{
+	int Rollno=101;
+	int Marks=89;
+	void display() {
+	System.out.println("Name of the Student: "+Name);
+	System.out.println("Age: "+Age);
+	System.out.println("Roll Number: "+Rollno);	
+	System.out.println("Marks: "+Marks);
+	}
+}
+public class Inheritance {
+	public static void main(String[] args) {
+    Details ds=new Details();
+    ds.display();
+	}
+	}
+
+//4.Company System Management
+class employee{
+	String Name="Rahul";
+	double Salary =100000;
+	}
+class Manager extends employee{
+	int bonus=5000;
+	void display() {
+		System.out.println("Name of Employee: "+Name);
+		System.out.println("Salary of Employee: "+Salary);
+		System.out.println("Bonus of Employee: "+bonus);
+	}
+}
+public class Inheritance {
+	public static void main(String[] args) {
+   Manager md =new Manager();
+   md.display();
+   
+	}
+	}
+
+ //5.Drawing Applications(Hierarchical)
+class shapes{
+	void area() {
+		System.out.println("Calculating Area");
+	}	
+}
+class circle extends shapes{
+	void area() {
+		System.out.println("Area of Circle");
+	}
+}
+class rectangle extends shapes{
+	void area() {
+		System.out.println("Area of Rectangle");
+	}
+}
+public class Inheritance {
+	public static void main(String[] args) {
+   circle c=new circle();
+   rectangle r=new rectangle();
+   c.area();
+   r.area();
+  
+   
+	}
+	}
+
+//6.Banking System
+class Account{
+	void Withdraw() {
+		System.out.println("Amount withdrawn");
+	}
+	void Deposit() {
+		System.out.println("Amount Deposit");
+	}
+	
+}
+class SavingsAccount extends Account{
+	void Interest() {
+		System.out.println("Interest Amount Added");
+	}
+}
+class CurrentAccount extends Account{
+	void Credit() {
+		System.out.println("Amount credited");
+	}
+}public class Inheritance {
+	public static void main(String[] args) {
+		   SavingsAccount s=new SavingsAccount();
+		   s.Withdraw();
+		   s.Deposit();
+		   s.Interest();
+		   CurrentAccount c=new CurrentAccount();
+		   c.Credit();
+		   c.Deposit();
+		     
+			}
+			}
+
+//7.Transport System Management
+
+class Vehicle{
+	void show() {
+System.out.println("Vehicles Are:");
+}
+}
+class Bike extends Vehicle{
+	void disp() {
+		System.out.println("Transportation Manages Bike");
+	}
+}
+class Car extends Vehicle{
+	void Feature() {
+		System.out.println("Transportation Manages Car");
+	}
+}
+class Truck extends Vehicle{
+	void show() {
+		System.out.println("Transportation Manages Truck");
+	}
+}
+public class Inheritance {
+	public static void main(String[] args) {
+   Car c=new Car();
+   Bike b=new Bike();
+   Truck t=new Truck();
+   b.show();
+   c.Feature();
+   t.show();
+   b.disp();
+    }
+	}
+
+//8.School System
+
+class School{
+	void show() {
+		System.out.println("Containing Roles Are: ");
+	}
+}
+class Teacher extends School{
+	void show() {
+		System.out.println("Teacher teaches a Student");
+	}
+	
+}
+class Student extends School{
+	void learn() {
+		System.out.println("Student Learns From teacher");
+	}
+}
+public class Inheritance {
+	public static void main(String[] args) {
+		School sl=new School();
+		Teacher t=new Teacher();
+		Student s=new Student();
+		sl.show();
+		t.show();
+		s.learn();	
+	}
+}
+
+//9.Product catalog
+
+class Product{
+	void sale() {
+		System.out.println("Saling Products:");
+	}
+}
+class Electronics extends Product{
+	void sale() {
+		System.out.println("Electronics Used in Physical Appliances");
+	}
+}
+class Clothing extends Product{
+	void sale() {
+		System.out.println("Garments is Profitable Business");
+		
+	}
+}
+public class Inheritance {
+public static void main(String[] args) {
+Product p=new Product();
+ Clothing c=new Clothing();
+ Electronics e=new Electronics();
+ p.sale();
+ c.sale();
+ e.sale();	
+}
+}
+
+//10.Hospital System
+class Staff{
+	void roles() {
+		System.out.println("Staff is working");
+	}
+}
+class Doctor extends Staff{
+	void check() {
+		System.out.println("Doctor Treats Patient");
+	}
+}
+class Nurse extends Staff{
+	void assist() {
+		System.out.println("Nurse Perform As an Assistant doctor");
+	}
+}
+public class Inheritance{
+public static void main(String[] args){
+	Staff s=new Staff();
+	Doctor d=new Doctor();
+	Nurse n=new Nurse();
+	s.roles();
+	d.check();
+	n.assist();
+}
+}
